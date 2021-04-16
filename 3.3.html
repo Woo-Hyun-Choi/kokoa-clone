@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Nico times</title>
+    <style>
+      div {
+        height: 150px;
+        width: 150px;
+        background-color: tomato;
+      }
+
+      span {
+        background-color: turquoise;
+      }
+    </style>
+  </head>
+
+  <!-- block과 inline의 차이-->
+  <body>
+    <div></div> <!--block = 옆에 아무 것도 올 수 없음-->
+    <div></div>
+    <div></div>
+    <span>hello</span> <!--inline = in the same line(옆에 다른 요소가 올 수 있음)-->
+    <span>hello</span> <!--inline은 높이와 넓이가 없음. 따라서 위, 아래에 margin을 줄 수 없음.-->
+    <span>hello</span>
+    <a href="#">inline</a> <!--inline-->
+    <address>inline</address><!--inline-->
+    <code>inline</code>
+    <span>hello</span>
+    <p><!--block-->
+        blockblockblockblock
+    </p>
+    <img src="img/logo.jpg" /><!--inline-->
+  </body>
+</html>

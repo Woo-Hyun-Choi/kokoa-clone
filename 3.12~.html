@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--display flex 해주면 body가 자식을 control 할 수 있음-->
+    <!--vh : viewport height(screen height)-->
+    <!--<div>는 div -->
+    <!--<div id="helo">는 #helo -->
+    <!--<div class="oha">는 .oha -->
+
+    <style>
+      body {
+        height: 100vh;
+        margin: 0px;
+      }
+      div {
+        width: 150px;
+        height: 150px;
+        background-color: wheat;
+        position: static;
+      }
+      .green {
+        background-color: teal;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+      }
+    </style>
+    <!--position을 relative로 두면 element가 처음 놓인 자리에서 상하좌우로 움직일 수 있음(top, bottom 등을 사용할 수 있음.)-->
+    <!-- main axis : 수평으로 디폴트 // cross axis : 수직으로 디폴트 -->
+  </head>
+  <body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>
